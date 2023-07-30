@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<style>
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.background-image {
+    background-image: url(''); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gray-transparent-bg {
+    background-image: url(https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80) ;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.weather-container {
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.current-weather, .weather-forecast {
+    margin-bottom: 20px;
+}
+
+.weather-info, .forecast-card {
+    margin: 10px 0;
+}
+
+.weather-forecast {
+    display: flex;
+    justify-content: space-around;
+}
+
+.search-container {
+    margin-top: 20px;
+}
+
+input[type="text"], button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+	border-radius:10px;
+	background-color:#dddddd;
+	border-color: none;
+	
+}
+button:hover{
+	background-color:white;
+}
+
+<body>
+    <div class="background-image">
+        <div class="gray-transparent-bg">
+            <div class="weather-container">
+                <div class="search-container">
+                    <input type="text" placeholder="Enter city name">
+                    <button>Search</button>
+                </div>
+                <div class="current-weather">
+                    <h2>Thohoyandou</h2>
+                    <img src="https://www.dovora.com/resources/weather-icons/showcase/modern_showcase/day_partial_cloud.png" alt="">
+					
+                    <div class="weather-info">
+                        <p>Cloudy</p>
+                        <p>25°C</p>
+                    </div>
+                </div>
+                <div class="weather-forecast">
+                    <div class="forecast-card">
+                        <p>Mon</p>
+                        <img src="https://www.dovora.com/resources/weather-icons/showcase/modern_showcase/rain.png" alt="Sunny">
+						<p class="Weather">Cloudy</p>
+                        <p class="Temperature"> 22°C</p>
+                    </div>
+                    <div class="forecast-card">
+                        <p>Tues</p>
+                        <img src="https://www.dovora.com/resources/weather-icons/showcase/modern_showcase/day_clear.png" alt="Cloudy">
+						<p>Sunny</p>
+                        <p>24°C</p>
+                    </div>
+                    
+                    <div class="forecast-card">
+                        <p>Wens</p>
+                        <img src="https://www.dovora.com/resources/weather-icons/showcase/modern_showcase/day_clear.png" alt="Cloudy">
+						<p>Sunny</p>
+                        <p>24°C</p>
+                    </div>
+
+                    <div class="forecast-card">
+                        <p>Thur</p>
+                        <img src="https://www.dovora.com/resources/weather-icons/showcase/modern_showcase/day_rain.png" alt="Cloudy">
+						<p>Partly Cloudy</p>
+                        <p>24°C</p>
+                    </div>   
+
+                    <div class="forecast-card">
+                        <p>Fri</p>
+                        <img src="https://www.dovora.com/resources/weather-icons/showcase/modern_showcase/day_partial_cloud.png" alt="Cloudy">
+						<p>Partly Cloudy</p>
+                        <p>24°C</p>
+                    </div>  
+                </div>
+            </body>
+            </html>
